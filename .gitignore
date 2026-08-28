@@ -1,0 +1,18 @@
+# --- Secrets: never committed, no exceptions ---
+secrets/
+.env
+
+# --- Generated output (rebuilt every run, not source code) ---
+data/
+output/
+logs/
+
+# --- Python ---
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# --- macOS ---
+.DS_Store
